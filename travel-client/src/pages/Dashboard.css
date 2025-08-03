@@ -1,0 +1,43 @@
+.dashboard-page {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Updated Header Banner */
+.header-section {
+  background-image: url("https://images.unsplash.com/photo-1518684079-5cd2c5fbf56c?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Styling */
+.trip-card {
+  background: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.trip-card .card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.trip-card .card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.trip-card button {
+  width: 48%;
+}
